@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">    
+
+    <title>music.boston</title>
+</head>
+<body>
+    
+
+    <!-- Header text-->
+    <!-- <div class="header-text"> -->
+        <h1>music.boston</h1>
+        <!-- <h3>hi there. i make websites for people. see below and reach out if you're interested in getting your own website or email address at <i>whateveryouwant</i>.com</h3> -->
+    <!-- </div> -->
+
+    <!-- Profile picture-->
+    <img src="assets/evan.png" alt="logo" id="evan">
+
+
+    <!-- Links-->
+
+    <!-- <h2>Andrew Cornish</h2> -->
+    <a href="mailto:contact@sitesbysam.dev" class="links">contact@sitesbysam.dev</a>
+    <a href="https://andrewcornish.me" class="links">Andrew Cornish Music</a>
+    <!-- <p>Jazz musician</p> -->
+
+    <a href="https://sitesbysam.dev"><img src="assets/sbs-logo-full-darkbg.png" alt="logo" class="logo"></a>
+
+    <!-- <div class="footer">
+        <p>Copyright 2022 sitesbysam</p>
+    </div> -->
+ 
+</body>
+
+<style>
+    /* @font-face {
+        font-family: 'dpcomic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('dpcomic'), url('assets/Fonts/dpcomic/dpcomic.ttf') format('ttf');
+    } */
+    @font-face {
+        font-family: 'dpcomic';
+        src: url(assets/fonts/dpcomic/dpcomic.ttf);
+    }
+    @font-face {
+        font-family: 'yoster';
+        src: local('yoster'), url(assets/fonts/yoster-island/yoster.ttf) format('woff');
+    }
+
+    body {
+        background: rgb(0, 0, 0);
+        background-image: url('assets/background.png');
+        background-position: center;
+        background-size: 100% 500%;
+        color: #fff;
+        font-family: monospace;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    img {
+        border-radius: 0%;
+        scale: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding-top: 18px;
+    }
+
+    h3 {
+        font-family: monospace;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        height: auto;
+        max-width: 100px;
+    }
+
+    .header-text {
+        /* padding-top: 20px; */
+        line-height: 150%;
+        font-weight: bold;
+        font-size: 25px;
+        /* font-family: 'yoster'; */
+    }
+
+    #evan {
+        max-width: 50%;
+        max-height: auto;
+    }
+
+    .links {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        border-width: 2px;
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(146, 146, 146);
+        transition: color 1s; 
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.534);
+        font-family: monospace;
+    }
+
+    .socials {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(170, 170, 170);
+        transition: 200ms; 
+        text-decoration: none;
+    }
+
+    .links:hover {
+        color: rgb(255, 255, 255);
+        background: rgba(0, 0, 0, 0);
+        border: solid 2px #fff;
+        /* background: rgb(96,173,89); */
+        /* background: radial-gradient(circle, rgba(96,173,89,1) 4%, rgba(61, 116, 56, 0.824) 69%, rgba(96,173,89,0.22460322019432777) 75%, rgba(96,173,89,0) 88%);  */
+    }
+
+
+    .icons {
+        display: block;
+        /* border: 1px solid white; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #instagram-link {
+        display: block;
+        max-width: 75px;
+        max-height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-image: url(assets/background-blurred.jpg); */
+        /* border-radius: 10px; */
+    } #instagram-img {
+        display: block;
+        max-width: 75px;
+        max-height: 75px;
+        opacity: 0.75;
+    } #instagram-img:hover {
+        opacity: 1;
+    }
+
+    .bottom-text {
+        line-height: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 40px;
+        line-height: 30px;
+        /* font-weight: bold; */
+    }
+
+    p.bottom-text {
+        font-size: 14px;
+    }
+
+    .email {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(96, 173, 89);
+        transition: color 200ms; 
+    } .email:hover {
+        color: #fff;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+</html>
